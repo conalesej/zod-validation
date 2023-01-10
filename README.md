@@ -22,7 +22,7 @@ You may also see any lint errors in the console.
 #### Example
 ![image](https://user-images.githubusercontent.com/60915940/211482898-ac5ef99d-01f4-42da-9c69-1f2d52be169a.png)
 
-### Access src/App.tsx
+### Access `src/App.tsx`
 Play around with it by doing a console log inside the function
 If you have it running in your local browser, right-click anywhere in the page > click inspect element > then go to the console tab
 ![image](https://user-images.githubusercontent.com/60915940/211490254-672f9a59-a5c9-4cfc-a0be-7d9774a94e47.png)
