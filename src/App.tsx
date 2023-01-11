@@ -1,8 +1,14 @@
 import { z } from "zod";
 
 const App = () => {
+  const numericString = (schema: z.ZodTypeAny) =>
+    z.preprocess((a) => {
+      return Number(a);
+      // Cast it to input Output
+    }, schema) as z.ZodEffects<z.ZodTypeAny, number, number>;
+
   const schema = z.object({
-    data: z.coerce.number(),
+    data: numericString(z.number()),
   });
 
   // Input Types
